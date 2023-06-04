@@ -1,16 +1,4 @@
-
-
-import numpy as np
-from torch.utils.data import Dataset
-import torchvision.transforms as transforms
-import torchvision.transforms.functional as TF
-from torch.utils.data import DataLoader
-import glob 
-from torch.utils.data import Subset
 import torch
-
-
-
 
 def train(model,training_loader,num_epochs = 5, lr = 0.001):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
