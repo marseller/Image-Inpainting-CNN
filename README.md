@@ -1,4 +1,4 @@
-# Image-Inpainting-CNN
+# Image Inpainting CNN (PyTorch)
 This model implementation of CNN is used to predict the missing pixels of input an image. To train the model, image_alteration function was used to cut out pixels from the original image and return an image with missing parts that will be later used for training.  
 Used number of samples : 25k images
 #
