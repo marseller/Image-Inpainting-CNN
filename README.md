@@ -1,5 +1,6 @@
 # Image-Inpainting-CNN
-This model implementation of CNN is used to predict the missing pixels of input an image. To train the model, image_alteration function was used to cut out pixels from the original image, and return an image with missing parts that will be latter used for training.   
+This model implementation of CNN is used to predict the missing pixels of input an image. To train the model, image_alteration function was used to cut out pixels from the original image and return an image with missing parts that will be later used for training.  
+Used number of samples : 25k images
 #
 The results are the following:  
 ![output1](https://github.com/marseller/Image-Inpainting-CNN/assets/54594235/4f26d93b-310f-4d5e-bdc0-719fa7fa8842)  
